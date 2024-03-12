@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var emp=["gopal",1,"praveem"];
+        // for(i=0;i<emp.length;i++)
+        // {
+        //     document.writeln(emp[i]+"<br>");
+        // }
+        //use array by object
+        var gk=new Array();
+        gk[0]="gopal";
+        gk[2]="pravee";
+        // for(i=0;i<gk.length;i++)
+        // {
+        //     document.writeln(gk[i]);
+        // }
+        // use array as like a constructor
+        var gk1=new Array("gk","pk","KK",1,2,3);
+        // for(i=0;i<gk.length;i++)
+        // {
+        //     document.writeln(gk[i]);
+        // }
+        //use a concat function()
+        var b=gk.concat(emp,gk1);
+        for(i=0;i<b.length;i++)
+        {
+            document.writeln(b[i]);
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

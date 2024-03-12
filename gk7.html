@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>
+</title>
+<style>
+table{
+padding:10px;
+background-color:white;}
+#one
+{
+color:red;
+background-color:yellow;
+}
+td
+{
+padding:10px;
+background-color:skyblue;
+}
+
+</style>
+
+</head>
+<body>
+
+<table cellspacing="10" border="2"> 
+<tr>
+<td  id="one" colspan="3" bgcolor="yellow" color="red"> <center>Registration form</center></td>
+</tr>
+<tr>
+<td><label>enter name:</td><td><input name="fname"></label></td>
+</tr>
+<tr>
+<td><label>enter password:</td><td><input type="password" name="password"></label></td>
+</tr>
+<tr>
+<td><label>enter address:</td><td><textarea name="address" colspan="30" rows="4"></textarea></label></td>
+</tr>
+<tr>
+ <td>Select Game:</td><td><label><input type="checkbox" name="Hockey" value="Hockey">Hockey</label><br>
+             <label><input type="checkbox" name="Football" value="Football">Football</label><br>
+             <label><input type="checkbox" name="Badminton" value="Badminton">Badminton</label><br>
+              <label><input type="checkbox" name="Circket" value="Circket">Circket</label></td>
+</tr>
+<tr>
+<th bgcolor="skyblue">gender:</th><td><input type="radio" name="gender" value="male">male</label>
+                <input type="radio" name="gender" value="female">female</label></td>
+
+</tr>
+<tr>
+<th bgcolor="skyblue">select age</th><td> <input name="select"> </td>
+</tr>
+<tr>
+<th bgcolor="skyblue"> Select Photo:</th><td><input type="button" value="click me" onclick="alter('you are learning html')"></td>
+</tr>
+<tr>
+<td colspan="3">
+<input type="button" value="click me" onclick="alter('you are learning html')">
+<input type="reset" value="reset">
+<input type="submit" value="submit form">
+</td></tr>
+
+</table>
+
+</body>
+</html>
